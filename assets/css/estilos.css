@@ -1,0 +1,81 @@
+
+
+.boton-enlace {
+        border-radius: 50PX; /* Esto hace que los bordes sean redondeados */
+        padding: 10px 20px; /* Ajusta el relleno para que el botón sea más redondo */
+        font-size: 16px; /* Tamaño de fuente */
+        background-color: #AB3ED8; /* Color de fondo del botón */
+        color: #ffffff; /* Color del texto del botón */
+        border: none; /* Quita el borde */
+        cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+.contenedor{
+        background-color: #222d35;
+        display: flex; 
+        flex-direction: column; 
+        justify-content: center;
+        color: #0069C0;
+        width: 500px;
+        height: auto; 
+        border-radius: 20px;
+        padding: 30px 20px;
+        margin-left: auto;
+        margin-right: auto;
+        transition:background-color 0.3s ease-in-out;
+}
+body {
+        margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+        padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+        background-color: #BF88DB;
+        background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+        background-repeat: no-repeat; /* No repetir la imagen */
+        background-attachment: fixed; /* Fija la imagen para que no se desplace con el contenido */
+        /* Agrega más estilos si es necesario */
+    }
+    
+.imagen-contacto{
+        width: 50px;
+        height: 50px; 
+        border-radius: 100%;
+}
+#titulo{
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #97E9FF;
+  padding: 10px;
+}
+.desarrollo{
+        margin: 70px;
+        display: flex;
+        flex-direction: row;
+      justify-content: center;
+      align-items: center;
+}
+.grafico {
+        width: 700px;
+        height: 20px;
+        background-color: #e0e0e0;
+        border-radius: 10px;
+        overflow: hidden;
+      }
+      
+      .barra {
+        height: 100%;
+        background-color: #3498db;
+      }
+#habilidades{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+}
+
+        
+
