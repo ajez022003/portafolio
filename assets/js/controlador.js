@@ -17,7 +17,7 @@ function formacion() {
     window.location.href='https://github.com/ajez022003'
 }
 function  linkedin(){
-    window.open.href='https://www.linkedin.com/in/angelly-jessibel-elvir-141146254'
+    window.location.href='https://www.linkedin.com/in/angelly-jessibel-elvir-141146254'
 }
 function facebook(){
   window.location.href='https://www.facebook.com/angellyjessibel.elvirzuniga?mibextid=b06tZ0'
