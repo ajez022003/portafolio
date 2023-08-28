@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="icon" type="image/png" href="assets/img/tecnologia.png" sizes="16x16">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c65d00602a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+    <script src="assets/js/controlador.js"></script>
+</head>
+<body>
+  <nav class="navbar bg-body-tertiary">
+    <button class="boton-enlace" onclick="principal()"><i class="fa-solid fa-house"></i> PAGINA PRINCIPAL</button>
+    <button class="boton-enlace" onclick="sobre()"><i class="fa-solid fa-user"></i>SOBRE MI</i></button>
+    <button class="boton-enlace" onclick="formacion()"><i class="fa-solid fa-book"></i> FORMACION ACADEMICA</i></button>
+    <button class="boton-enlace" onclick="habilidades()"><i class="fa-solid fa-person">HABILIDADES</i></button>
+   
+   
+  </nav>
+  <div class="desarrollo">
+    <h1>Hola, soy Angelly, actualmente tengo 20 años,soy desarrolladora web, aqui podran encontrar mas informacion sobre mi,bienvenido a mi espacio</h1>
+    <div class="contenedor">
+      <img src="https://scontent.ftgu1-2.fna.fbcdn.net/v/t39.30808-6/320925812_850661826266528_4762717134340372022_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=7IZzVyz9klUAX8pbt0d&_nc_zt=23&_nc_ht=scontent.ftgu1-2.fna&oh=00_AfBnruNmG0IPsoXEt31hY4-Ym94lB-nZjsbk3EeaM-lstw&oe=64F02FB7" alt="">
+  
+    </div>
+  </div>
+  <br><br><br><br><br>
+ 
+
+<div id="titulo">
+  
+    <h1>Contactame</h1> 
+  <div>
+    <button onclick="git()" class="boton-enlace"><img  class="imagen-contacto" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="">Git hub</button>
+    <button onclick="linkedin()" class="boton-enlace"><img class="imagen-contacto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH4AAAB+CAMAAADV/VW6AAAAZlBMVEUAAAD////19fVYWFhISEhqamrl5eVlZWVcXFzU1NSTk5NBQUFubm5MTEz7+/vy8vJSUlLNzc0uLi4YGBgKCgrAwMCFhYXHx8cfHx/f39+1tbWlpaWZmZkTExN9fX1zc3MmJiY4ODhsQRzLAAAEQUlEQVRogcWb57qCMAyGS4+iKLJUZDjv/yYPuGgZTYDEfj95+vBCR5qkqXAmyI2LMvV3yf4gxGGf7Py0LGJ3ypvEWPJpE2UX0aNDFm1OY79hDF7mFbqP3Kj6BE+y4PN0a0Z/tE1zarwskez3F5TILkDh8+sY9ks3VBcg8N5yPLzW0iPAu/40eC0fXAgAPthMh9c6B3Pwx94VPkaXYjI+XM2F11qH0/BHwMRglR0n4IOUBl4rHZwBQ/hwQUcXYjE0AAN4jxJea8AG9OMLaroQ/SugF3+mp1cmAIufaWqGtMHhCae8rhSDZ/r3Wt3/7+BZxv2jEsIzzHlV7fnfwpOv97Y8Ez7kpgsRDuMDUkvbr0UwiGdbcqrSIfzxF3Qhjv34kGh/h5SFvfj1b+hCrPrwzCte1bGLD2Z7lXhdgg6e0dR3dW7j3V/ShXBbeCiW2a5WCSH+puMBW391q4hVeiR+/0uehje++PKdqSUZ3lfxubGpYqbIJughV/DG+P3qKHpQ8a8NXhobalEynXGSX7xxSB9ansQl2xjKL96Yt1lrG7QkW37bD9488XR8QLf68zfe7GUkWufndFtD+sJLIGemeYeE++JWPvHmvhdiqeIpLW/+xIOmRHHOSffFzRMfge2+wQltCBTVeMxK/osr/yw8jkqswsrcCn9CNU0ejzstvNKpwv/UzdG1qfDw0LMpqvA/8u77lDnCPRC9a32OQyllXmCPHSo/xhUx2OgRe199TNQubx7t6gdXJX0vT9gBjQVsRbWY9P3sT3lURUdZO22H9MoKATdcSAgfdZOmuDxFKeCgGsJH6w7cgXeSp1IBH1ZAeL8/YYvpf1/sZuOHTkzgN1dweAeF8ENCZCsSsWfDQ25Mpb2Arc5UPCJVhDF5OLwMOzMQt5dS4Ivl7rFdFfr6x2QJKTo//EzyteYVwzHBgWLqKRjteQAuvT3FwlOnWKzi/6BXJxRm56401sJhMB2xIzC6mnlJRuF9gi1H977lGHxKsOHq/eeOwZcYdwPc7yfjC4SzxYiPEa4mH75yNWFHmw+fYcIMPnyECbL48BtMiMmHP2ECbDb8M8AGB58NH6GSK2z4Myq1xIbPUYk1Lvw7sQZ5pFz4d1oR6n0u/Cepak4pc+G/KWUgGmTCNwl183ECE745TjAfpvDglcMU8+TjwatHSY6pHJMFrx2kGVMxLHj9GNF0iJotG32a3W/fR7e71nrtN62HI6jWIartI2TeaqW2OgfoPy0fyJwO3nLxBCIooFJv6YjtwhnLZUO2i6Zsl4xZLpizXS5ou1iSsjilR2CpqO1CWdtlwmybH7JImmn8O+M+iLdcIG/7eoCSoifR2MsRtq+GOJYvxji2rwXVHQAftQDaG34dxM82QfOuhFVyb9Phsy/E1fKW0+orSK4D1ppyGfJKdRmyltWroE+5Fi/CPmX1GvBLFi9BN99AdgX8Hz8aOmtCFgeSAAAAAElFTkSuQmCC" alt="">Linkedin</button>
+    <button onclick="facebook()" class="boton-enlace"><img class="imagen-contacto" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png" alt="">Facebook</button>
+    <button onclick="gmail()" class="boton-enlace"><img class="imagen-contacto" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJsAAACbCAMAAABCvxm+AAAAXVBMVEUAAAD////T09MkJCQvLy/Jycnu7u7x8fE6Ojr29vZTU1NKSkpOTk7b29tHR0fi4uK5ubk1NTWVlZVycnKBgYEODg5jY2M/Pz9dXV2cnJzo6OimpqaIiIgUFBRsbGxGvwkRAAADzUlEQVR4nO2c25qiMAyAiSIHFaHjjAec2fd/zBWddQV6DEnbi/63Hvi/lCSFQjOIlyy0gIbkhiO54UhuOJIbjuSGI7nhSG44Rm5136xC0vS13K3uTocqX4ckr3aXrp65tR9ZLHy0Y7cuD230Rt69udXH0DoTjvXLLTa1u9w/t8/QJhI+n25daA8p3eBWf4XWkPJV393iKR5jPiArdspP1yLnRqyVR98V2Uptfhl1EBbKi/rwq+yqCeuW3W2rOfo1O2k+zfYFq1m51x38lKkHfODA6nbQHltvNsjxRa7Qq2Xm2rZnc9MOqB1M51xBoHaX4ygltS5DXeRKcjV9hrqwpZYriaI2QD2sZFEb2FImREEYtQHKIqyeXWDlqCKnmfjg5YjcGNSIImdqVFgIspWq5ErkltY5upI7Z2ER5ovaQ27JsPKqLYocZaOSg04I7qg95HClhD9qA7gizFJy5+zcI0czy7WSc3bzpuYcOX9RG3DLVi9p8CZnX+c4G5Uc6yLso65NsRzW2nvUBqyuIaivDWyxKSWeSq5EzhQ5v8VjjKl9MU3ALeV0keO6NrBFdwss4ID+yqnqnP+SO0cxTQ9RcudIO0QcalI5P7NcG2bDGkvUBibtK56oDYzbVwQZ+s7b1VfIRiXnf/vy1d67yvqrv+3L4dafWLbivWrt5faO51rVatZHLdhAIay/vCtdGpUoYINRerEBaOwjt201S7UTqgaWu0FvL2dcVnxR9UDhBg7nnC3V45kjAjd6OdEAlZvLsNrwGFAqN2gon/PKG6B0g9K+lJgQrykVkRs0VHKvqNG5UUVOvE2nyNxcirCaqgEON4psFT3wuEF7Xqh2boHLbWkRrsZqtG7LIjeJGrUbtPhsFc30z4jd8AlR9bP/onbDtq98FjUGNygxcrnsxgS9G6YIV5Kosbi5XEM8EfJbiBxurpGTR43JzS1bJRnK6ebSIabdgN3NXk6txuZmO6zKAeV0s5sJzxuVFzcozJGrtCs3jG7m9iVrVJ7cTO1L2qh8uemLsKrkenKDXp0QQpOhXtzUM+GzKWr8bqoirCm5/tyglS1FHizUPLhBMb9bebF6uMWDG8BtPK7iZvczL27Q335ev/m5GhPUq9ud5vZ9/HP8vpnT078bguSW3JJbcktusbl9GZYVQ7qt9e+fBnU7ad/bDet21b3vHNhtpXtP/M6a9S1x7bm+K6J+vz7qfQli3s8h6n0wot4/JOp9V2Lerwai3udnGNjuEn5/pINsf6SnXqz7SsVHcsOR3HAkNxzJDUdyw5HccCQ3HDG7/QX2NkkeIPx8WgAAAABJRU5ErkJggg==" alt="">Gmail</button>
+  </div>
+ 
+</div>
+  
+ 
+     
+</body>
+</html>
